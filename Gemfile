@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+gem 'byebug'
 gem 'rails', '~> 4.2'
 gem 'sqlite3'
 gem 'sass-rails', '~> 5.0'
@@ -11,6 +12,7 @@ group :development, :test do
   gem 'pry'
   gem 'capybara'
   gem 'rspec-rails'
+
 end
 
 group :development do
